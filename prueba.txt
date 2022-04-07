@@ -1,0 +1,193 @@
+Script started on 2022-04-07 11:28:43+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ python3 sol_skel.py [7Pcd Descargas/ls[Kpython3 6_listener_multiprocess.pyls[Kpython3 6_listener.py 147.96.132.1755[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kpython3 6_listener_multiprocess.pyls[Kcd Descargas/python3 sol_skel.py [Kpython3 sol_skel.py [Kpython3 01_broker_test.py wild_[K.mat.ucm.es humid ity
+MESSAGE: None humidity 0 b'63' 0
+MESSAGE: None humidity 0 b'70' 0
+MESSAGE: None humidity 0 b'64' 0
+MESSAGE: None humidity 0 b'69' 0
+MESSAGE: None humidity 0 b'72' 0
+^CTraceback (most recent call last):
+  File "01_broker_test.py", line 30, in <module>
+    main(broker, topic)
+  File "01_broker_test.py", line 21, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ python3 01_broker_test.py wild.mat.ucm.es humidity[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidit[1Py[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidity[K[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidity [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@2_combine_numbers.py wild.mat.ucm.es humidity[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Sending CONNECT (u0, p0, wr0, wq0, wf0, c1, k60) client_id=b''
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Sending SUBSCRIBE (d0, m1) [(b'numbers', 0)]
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received CONNACK (0, 0)
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received SUBACK
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'18'
+timer working. timeout: 2.1974488531390035
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'93'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'36'
+timer working. timeout: 6.329591542658177
+timer end workin
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (18 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.9270831276088283'
+invalid literal for int() with base 10: b'0.9270831276088283'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (17 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.939050681838604'
+invalid literal for int() with base 10: b'0.939050681838604'
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'94'
+timer working. timeout: 19.564851141221336
+timer end workin
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (2 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'92'
+timer working. timeout: 8.177835667035838
+LOG {'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'} 16 Received PUBLISH (d0, q0, r0, m0), 'numbers', ...  (19 bytes)
+MESSAGE:data:{'client': <paho.mqtt.client.Client object at 0x7f6d76ae2100>, 'broker': 'wild.mat.ucm.es'}, msg.topic:numbers, payload:b'0.01983159313632732'
+invalid literal for int() with base 10: b'0.01983159313632732'
+^CProcess Process-4:
+Process Process-3:
+Traceback (most recent call last):
+  File "02_combine_numbers.py", line 94, in <module>
+    main(broker)
+  File "02_combine_numbers.py", line 86, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "02_combine_numbers.py", line 55, in timer
+    sleep(time)
+  File "02_combine_numbers.py", line 55, in timer
+    sleep(time)
+KeyboardInterrupt
+KeyboardInterrupt
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ python3 02_combine_numbers.py wild.mat.ucm.es humidity[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es hum[1Pidity[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humi[1Pdity[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humid[1Pity[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidi[1Pty[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidit[1Py[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidity[K[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidity [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@3_temperatures.py wild.mat.ucm.es humidity[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C
+on_message temperature/t1 b'30'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'30']}}
+on_message temperature/t2 b'30'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'30'], 't2': [b'30']}}
+on_message temperature/t1 b'31'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'31'], 't2': [b'30']}}
+on_message temperature/t2 b'30'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'31'], 't2': [b'30']}}
+on_message temperature/t1 b'32'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'32'], 't2': [b'30']}}
+on_message temperature/t2 b'32'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'32'], 't2': [b'32']}}
+on_message temperature/t1 b'33'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'33'], 't2': [b'32']}}
+on_message temperature/t2 b'31'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'33'], 't2': [b'31']}}
+on_message temperature/t1 b'34'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34'], 't2': [b'31']}}
+on_message temperature/t2 b'34'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34'], 't2': [b'34']}}
+mean t1: 34.0
+mean t2: 34.0
+on_message temperature/t1 b'35'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35'], 't2': [b'34']}, 't1': [], 't2': []}
+on_message temperature/t2 b'34'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35'], 't2': [b'34', b'34']}, 't1': [], 't2': []}
+on_message temperature/t1 b'36'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36'], 't2': [b'34', b'34']}, 't1': [], 't2': []}
+on_message temperature/t2 b'35'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36'], 't2': [b'34', b'34', b'35']}, 't1': [], 't2': []}
+on_message temperature/t1 b'37'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37'], 't2': [b'34', b'34', b'35']}, 't1': [], 't2': []}
+on_message temperature/t2 b'36'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37'], 't2': [b'34', b'34', b'35', b'36']}, 't1': [], 't2': []}
+on_message temperature/t1 b'38'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38'], 't2': [b'34', b'34', b'35', b'36']}, 't1': [], 't2': []}
+on_message temperature/t2 b'38'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38'], 't2': [b'34', b'34', b'35', b'36', b'38']}, 't1': [], 't2': []}
+on_message temperature/t1 b'39'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38', b'39'], 't2': [b'34', b'34', b'35', b'36', b'38']}, 't1': [], 't2': []}
+on_message temperature/t2 b'40'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38', b'39'], 't2': [b'34', b'34', b'35', b'36', b'38', b'40']}, 't1': [], 't2': []}
+on_message temperature/t1 b'0'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38', b'39', b'0'], 't2': [b'34', b'34', b'35', b'36', b'38', b'40']}, 't1': [], 't2': []}
+on_message temperature/t2 b'-2'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38', b'39', b'0'], 't2': [b'34', b'34', b'35', b'36', b'38', b'40', b'-2']}, 't1': [], 't2': []}
+mean t1: 31.285714285714285
+mean t2: 30.714285714285715
+on_message temperature/t1 b'1'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1'], 't2': [b'34', b'34', b'35', b'36', b'38', b'40', b'-2']}, 't1': [], 't2': []}
+on_message temperature/t2 b'1'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1'], 't2': [b'34', b'34', b'35', b'36', b'38', b'40', b'-2', b'1']}, 't1': [], 't2': []}
+on_message temperature/t1 b'2'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2'], 't2': [b'34', b'34', b'35', b'36', b'38', b'40', b'-2', b'1']}, 't1': [], 't2': []}
+on_message temperature/t2 b'1'
+on_message {'lock': <unlocked _thread.lock object at 0x7f422c77bf60>, 'temp': {'t1': [b'34', b'35', b'36', b'37', b'38', b'39', b'0', b'1', b'2'], 't2': [b'34', b'34', b'35', b'36', b'38', b'40', b'-2', b'1', b'1']}, 't1': [], 't2': []}
+^CTraceback (most recent call last):
+  File "03_temperatures.py", line 51, in <module>
+    main(broker)
+  File "03_temperatures.py", line 39, in main
+    sleep(8)
+KeyboardInterrupt
+
+]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ python3 03_temperatures.py wild.mat.ucm.es humidity[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidi[1Pty[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidit[1Py[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidity[K[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es humidity [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@4_humidity.py wild.mat.ucm.es humidity [A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Ktemperau te[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Krat ure/t1
+message:temperature/t1:b'25':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 0}
+umbral superado 25, suscribiendo a humidity
+message:humidity:b'62':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'26':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'27':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'63':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'63':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'28':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:temperature/t1:b'29':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'56':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+message:humidity:b'59':{'temp_threshold': 20, 'humidity_threshold': 80, 'status': 1}
+^CTraceback (most recent call last):
+  File "04_humidity.py", line 56, in <module>
+    main(broker)
+  File "04_humidity.py", line 47, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ python3 04_humidity.py wild.mat.ucm.es temperature/t1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es temperatur[1Pe/t1[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es temperature[1P/t1[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es temperature/[1Pt1[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es temperature/t[1P1[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es temperature/t1[K[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C wild.mat.ucm.es temperature/t1 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1@5[1@_[1@t[1@i[1@m[1@eout.py wild.mat.ucm.es temperature/t1[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C
+CONNECT: {'broker': 'wild.mat.ucm.es'} {'session present': 0} 0
+^CTraceback (most recent call last):
+  File "05_timeout.py", line 54, in <module>
+    main(broker)
+  File "05_timeout.py", line 46, in main
+    mqttc.loop_forever()
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1756, in loop_forever
+    rc = self._loop(timeout)
+  File "/home/alumno/.local/lib/python3.8/site-packages/paho/mqtt/client.py", line 1150, in _loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
+
+]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ python3 05_timeout.py wild.mat.ucm.es temperature/t1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy wild.mat.ucm.es temperature[1P/t1[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy wild.mat.ucm.es temperature/[1Pt1[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy wild.mat.ucm.es temperature/t[1P1[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy wild.mat.ucm.es temperature/t1[K[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy wild.mat.ucm.es temperature/t1 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[C[1P[1@0[1@5[1@_[1@t[1@e[1@st_timer.py wild.mat.ucm.es temperature/t1[A]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C
+]0;alumno@aula424: ~/Descargas/mqtt[01;32malumno@aula424[00m:[01;34m~/Descargas/mqtt[00m$ exit
+
+Script done on 2022-04-07 11:35:03+02:00 [COMMAND_EXIT_CODE="0"]
